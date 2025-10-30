@@ -8,7 +8,7 @@ import google.generativeai as genai
 
 # --- Configuration ---
 # The API_KEY is left as an empty string. Canvas will automatically provide it at runtime.
-API_KEY = "AIzaSyB-8SjBKkb3aEjGmNcXTacs5GShzAgy-4U" # The user provided API key, so it should be preserved.
+API_KEY = "" # The user provided API key, so it should be preserved.
 genai.configure(api_key=API_KEY)
 
 app = Flask(__name__)
